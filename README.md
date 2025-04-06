@@ -1,58 +1,42 @@
-# Movie_Ticket_Booking_System
+# Movie Ticket Booking System
 
-A simple C++ console application to book movie tickets, built using object-oriented programming and basic file handling. This project stores movie and customer data in CSV files and simulates a real-world movie ticket booking experience through the terminal.
+## Overview
 
----
-
-## About the Project
-
-This is a beginner-friendly project that demonstrates how to build a mini booking system using C++. The idea is to allow users to:
-
-- View available movies
-- Choose a movie
-- Book seats by entering customer details
-- Store the bookings in a CSV file for future reference
-
----
+This is a simple C++ console-based movie ticket booking system. It allows users to select a movie, book seats, and stores booking details in CSV files. It uses basic object-oriented programming concepts and file handling in C++.
 
 ## Features
 
-- Creates and initializes CSV files (`movies.csv`, `customers.csv`)
-- Preloads three popular movies with seat availability
-- Allows multiple customer bookings in one go
-- Automatically assigns seat numbers
-- Saves customer booking data persistently in `customers.csv`
-- Simple movie search functionality
-
----
+- Add default movies to a file (`movies.csv`)
+- Display movie details
+- Book tickets for multiple customers
+- Store customer details and seat information in `customers.csv`
+- Seat availability is updated as bookings are made
 
 ## How It Works
 
-1. When the program starts, it creates the CSV files if they don’t exist.
-2. It adds a few default movies with fixed time slots and 200 available seats each.
-3. The user selects a movie and provides the number of people booking tickets.
-4. For each person, the program asks for their name and age.
-5. The system assigns the next available seat and stores the booking.
+1. The program initializes two CSV files: `movies.csv` and `customers.csv`.
+2. Default movies are added automatically.
+3. The user is prompted to choose a movie.
+4. The user enters the number of seats to book and provides customer details.
+5. Booked details are saved, and seat numbers are auto-assigned.
 
----
+## Sample Booking Flow
 
-## Files in the Project
+Select a Movie to Book:
 
-- `Movie_Ticket.cpp` – Main source code
-- `movies.csv` – Stores movie information like ID, name, genre, time, and seats
-- `customers.csv` – Stores each customer’s name, age, seat number, and booking info
+Bahubali
 
----
+KGF
 
-## How to Compile and Run
+RRR Enter choice (1-3): 1
 
-### Windows (using g++):
-```bash
-g++ Movie_Ticket.cpp -o Movie_Ticket
-Movie_Ticket.exe
+Movie Details: Movie ID: 1 Name: Bahubali Genre: Action Time: 6:00 PM Available Seats: 200
 
-# **This is a big and bold heading (H1)**
+Enter number of customers to book: 2
 
-## **This is slightly smaller but bold (H2)**
+Enter details for Customer 1: Enter Name: John Enter Age: 25
 
-### **This is even smaller but still bold (H3)**
+Ticket Booked Successfully! Name: John Age: 25 Movie: Bahubali Seat Number: 1
+
+## Author
+Abhay Singh
