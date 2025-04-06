@@ -51,7 +51,7 @@ This is a beginner-friendly project that demonstrates how to build a mini bookin
 g++ Movie_Ticket.cpp -o Movie_Ticket
 Movie_Ticket.exe
 
-# Sample Booking Flow
+## Sample Booking Flow
  movies.csv created.
 customers.csv created.
 
