@@ -51,36 +51,8 @@ This is a beginner-friendly project that demonstrates how to build a mini bookin
 g++ Movie_Ticket.cpp -o Movie_Ticket
 Movie_Ticket.exe
 
-## Sample Booking Flow
- movies.csv created.
-customers.csv created.
+# **This is a big and bold heading (H1)**
 
-Default Movies Added Successfully!
+## **This is slightly smaller but bold (H2)**
 
-Select a Movie to Book:
-1. Bahubali
-2. KGF
-3. RRR
-Enter choice (1-3): 2
- Movie Details:
-Movie ID: 2
-Name: KGF
-Genre: Drama
-Time: 8:00 PM
-Available Seats: 200
-
-Enter number of customers to book: 2
-
-Enter details for Customer 1:
-Enter Name: Abhay
-Enter Age: 21
-
-Enter details for Customer 2:
-Enter Name: Ankur
-Enter Age: 20
-
- Ticket Booked Successfully!
-
-Author
-Abhay Singh
-
+### **This is even smaller but still bold (H3)**
